@@ -336,7 +336,7 @@
     font-style: normal;
     font-weight: 400;
     color: #060F17;
-    padding-top: 110px;
+    padding-top: 114пшеpx;
 }
 .subtitle{
     font-family: 'PT Mono';
@@ -354,6 +354,7 @@
 }
 .avialable-row{
     display: flex;
+    justify-content: space-between;
     padding-bottom: 121px;
 }
 .avialable-body{
