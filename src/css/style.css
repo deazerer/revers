@@ -1,0 +1,403 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
+@font-face {
+	font-family: 'Hacked';
+	src: url('../fonts/Hacked Cyr.eot');
+	src: local('☺'), url('../fonts/Hacked Cyr.woff') format('woff'), url('../fonts/Hacked Cyr.ttf') format('truetype'), url('../fonts/Hacked Cyr.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+.main{
+    background-color: #0C1215;
+    padding: 20px 0 ;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-logo{
+    display: flex;
+    align-items: center;
+}
+.logo-img{
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin-right: 20px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.header-logo .logo-name{
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 26.4px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.btn{
+    font-family: 'PT Mono';
+    text-decoration: none;
+    border: 2px solid #fff;
+    position: absolute;
+}
+.wrapper{
+    border: 2px solid #fff;
+    position: relative;
+}
+.header-btn-wrapper{
+    width: 165px;
+    height: 50px;
+    background-color: #0C1215;
+}
+.header-btn{
+    width: 165px;
+    height: 50px;
+    color: #fff;
+    padding: 15px 11px 15px 15px; 
+    background-color: #000;
+    line-height: 18.75px;
+    top: 3px;
+    right: 3px;
+    transition: 0.3s;
+    border-radius: 0;
+}
+.header-btn:hover{
+    width: 165px;
+    height: 50px;
+    font-family: 'PT Mono';
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 15px 11px 15px 15px; 
+    background-color: #000;
+    line-height: 18.75px;
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    transition: 0.3s;
+}
+.intro-content{
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    font-family: 'Hacked';
+    font-weight: 400;
+    text-shadow: 2px 2px 20px rgba(255, 255, 255, 0.7);
+    color: #fff;
+}
+.intro-title{
+    margin-top: 300px;
+    width: 555px;
+    font-size: 64px;
+    line-height: 73.63px;
+}
+.intro-title .large{
+    font-size: 153px;
+}
+.intro-subtitle{
+    font-family: 'PT Mono';
+    font-size: 36px;
+    line-height: 40px;
+    color: #fff;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.intro-join{
+    display: flex;
+}
+.intro-btn-wrapper{
+    display: inline-block;
+    width: 263px;
+    height: 50px;
+    margin-right: 30px;
+}
+.join-wrapper{
+    display: flex;
+    column-gap: 20px;
+}
+.join-btn{
+    width: 263px;
+    height: 50px;
+    background-color: #fff;
+    color: #060F17;
+    font-family: 'Hacked';
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 11px 0 0 0;
+    top: 1px;
+    right: 1px;
+    transition: 0.3s;
+    border-radius: 0;
+}
+.join-btn:hover{
+    width: 263px;
+    height: 50px;
+    background-color: #fff;
+    color: #060F17;
+    font-family: 'Hacked';
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 11px 0 0 0;
+    top: -1px;
+    right: -2px;
+    transition: 0.3s;
+}
+.intro-join img{
+    border: 2px solid #FFFFFF;
+}
+.intro-join-text{
+    display: inline-block;
+    width: 292px;
+    font-family: 'PT Mono';
+    font-size: 18px;
+    line-height: 25px;
+    color: #A0AEBB;
+}
+.subfeatures-title{
+    margin-top: 300px;
+    margin-bottom: 20px;
+    font-size: 64px;
+    line-height: 74px;
+}
+.subfeatures-subtitle{
+    display: inline-block;
+    font-family: 'PT Mono';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 27px;
+    color: #B9BABE;
+    margin-bottom: 200px;
+}
+
+/* Блок с преимуществами */
+
+.features-box{
+    display: flex;
+    flex-direction: column;
+}
+
+.feature-img-wrapper{
+    width: 165px;
+    height: 165px;
+    margin-right: 130px;
+    top: -20px;
+    left: 20px;
+}
+.arrow-down{
+    position: absolute;
+    left: 148px;
+    top: 150px;
+}
+.plus-icon{
+    position: absolute;
+    left: 144px;
+    top: 2px;
+}
+.right-arrow{
+    position: absolute;
+    left: 153px;
+    top: 40px;
+}
+.feature-row .osint{
+    position: absolute;
+    background: #151414;
+    border: 2px solid #FFFFFF;
+    width: 165px;
+    height: 165px;
+    top: 20px;
+    left: -20px;
+}
+.feature-row{
+    display: flex;
+}
+.feature-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.feature-title{
+    font-size: 48px;
+    line-height: 55px;
+    text-transform: uppercase;
+}
+.feature-subtitle{
+    display: flex;
+    font-family: 'PT Mono';
+    font-size: 18px;
+    line-height: 25px;
+    color: #fff;
+    font-weight: 400;
+    font-style: normal;
+    width: 750px;
+    height: 75px;
+    text-shadow: none;
+    text-transform: none;
+    align-items: flex-end;
+}
+.features{
+    padding: 60px 0 200px 0;
+}
+.features-row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -68.5px;
+}
+.features-column{
+    padding: 0 68.5px;
+    margin-bottom: 30px;
+}
+.item-row{
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+}
+.item-image{
+    flex: 0 0 68px;
+}
+
+.item-text{
+    flex: 1 1 auto;
+    font-family: 'PT Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #A0AEBB;
+    width: 360px;
+}
+.features-button{
+    display: flex;
+    justify-content: center;
+    margin-top: -60px;
+}
+.features-btn-wrapper{
+    width: 263px;
+    height: 50px;
+}
+.features-btn{
+    width: 263px;
+    height: 50px;
+    background-color: #fff;
+    color: #060F17;
+    font-family: 'Hacked';
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 11px 0 0 0;
+    top: 1px;
+    right: 1px;
+    transition: 0.3s;
+    border-radius: 0;
+}
+.features-btn:hover{
+    width: 263px;
+    height: 50px;
+    background-color: #fff;
+    color: #060F17;
+    font-family: 'Hacked';
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 11px 0 0 0;
+    top: -1px;
+    right: -2px;
+    transition: 0.3s;
+    border-radius: 0;
+}
+.squares{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.squares-wrapper{
+    margin-top: 80px;
+    padding-bottom: 266px;
+}
+.middle-square{
+    margin: 0 40px;
+}
+
+/* Вторая секция */
+
+.avialables{
+    background-color: #EAEAEA;
+}
+.avialables-title{
+    font-size: 64px;
+    line-height: 74px;
+    font-style: normal;
+    font-weight: 400;
+    color: #060F17;
+    padding-top: 110px;
+}
+.subtitle{
+    font-family: 'PT Mono';
+    color: #060F17;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+}
+.avialables-subtitle{ 
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 27px;
+    margin-bottom: 200px;
+}
+.avialable-row{
+    display: flex;
+    padding-bottom: 121px;
+}
+.avialable-body{
+    display: flex;
+    flex-direction: column;
+}
+.avialable-title{
+    font-family: 'Hacked';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 41px;
+    color: #060F17;
+    margin-top: 60px;
+}
+.avialable-desc{
+    margin: 30px 0 40px 0;
+    width: 653px;
+}
+.avialable-link{
+    font-family: 'PT Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 27px;
+    text-decoration: underline;
+    color: #898F9F;
+}
+.avialable-img-wrapper{
+    border: none;
+    left: 38px;
+}
+.avialable-img-wrapper .points{
+    position: absolute;
+    left: 300px;
+    top: 20px;
+}
+.course{
+    margin-bottom: 60px;
+}
+.list{
+    width: 727px;
+    margin-bottom: 50px;
+}
+.listed{
+    margin-left: -74px;
+}
