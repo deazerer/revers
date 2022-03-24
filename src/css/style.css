@@ -370,12 +370,13 @@
     display: flex;
     flex-direction: column;
 }
+.huge{
+    position: relative;
+}
 .huge-title{
     width: 851px;
 }
-.left{
-    left: -140px;
-}
+
 .avialable-title{
     font-family: 'Hacked';
     font-style: normal;
@@ -389,6 +390,10 @@
     padding-top: 30px;
     width: 653px;
 }
+.pos{
+    position: absolute;
+    right: 0;
+}
 .avialable-link{
     font-family: 'PT Mono';
     font-style: normal;
@@ -400,9 +405,7 @@
     padding-top: 40px;
 }
 .avialable-img-wrapper{
-
-    border: none;
-    /* left: 38px; */
+    border: none; 
 }
 .course{
     margin-top: 60px;
