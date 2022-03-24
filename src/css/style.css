@@ -333,6 +333,7 @@
 
 .avialables{
     background-color: #EAEAEA;
+    padding-bottom: 204px;
 }
 .avialables-title{
     font-size: 64px;
@@ -360,11 +361,20 @@
     display: flex;
     justify-content: space-between;
     margin-top: 200px;
-    padding-bottom: 121px;
+}
+.platf{
+    margin-top: 100px;
 }
 .avialable-body{
+    position: relative;
     display: flex;
     flex-direction: column;
+}
+.huge-title{
+    width: 851px;
+}
+.left{
+    left: -140px;
 }
 .avialable-title{
     font-family: 'Hacked';
@@ -390,29 +400,13 @@
     padding-top: 40px;
 }
 .avialable-img-wrapper{
+
     border: none;
-    left: 38px;
-}
-.avialable-img-wrapper .points{
-    position: absolute;
-    left: 350px;
-    top: 20px;
-}
-.circle-wrapper{
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    column-gap: 30px;
-}
-.circle{
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
-    background-color: #fff;
+    /* left: 38px; */
 }
 .course{
     margin-top: 60px;
+    padding-top: 0;
 }
 .list{
     width: 727px;
@@ -431,6 +425,11 @@
     height: 12px;
     border-radius: 50%;
     background-color: #fff;
+    left: 345px;
+    top: 20px;
+}
+.platf-circle{
+    left: 1055px;
 }
 .circle::before{
     position: absolute;
@@ -449,4 +448,135 @@
     height: 12px;
     border-radius: 50%;
     background-color: #fff;
+}
+.platform{
+    padding-top: 50px;
+    display: flex;
+    width: 100%;
+    column-gap: 30px;
+}
+
+.desc-f{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 263px;
+    background-color: #000;
+    padding: 30px 0px 34px 30px;
+}
+.corner{
+    position: absolute;
+    content: '';
+    width: 20px;
+    height: 20px;
+    border-right: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    left: 235px;
+    top: 154px;
+}
+.f-title{
+    font-family: 'PT Mono';
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+    line-height: 25px;
+}
+.f-subtitle{
+    font-family: 'PT Mono';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #B9BABE;
+    padding-top: 10px;
+}
+.desc-body{
+    position: absolute;
+    width: 849px;
+    height: 206px;
+    background-color: #000;
+    bottom: 10px;
+    right: 20px;
+    padding-left: 30px;
+}
+.corner-quest{
+    position: absolute;
+    content: '';
+    width: 20px;
+    height: 20px;
+    border-right: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    left: 820px;
+    top: 175px;
+}
+.desc-body-wrapper{
+    position: relative;
+    width: 849px;
+    height: 206px;
+    left: 20px;
+    border: 3px solid #000;
+}
+.desc-text{
+    font-family: 'PT Mono';
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+    line-height: 25px;
+    padding-top: 30px;
+}
+.sign-up-btn-wrapper{
+    width: 360px;
+    height: 56px;
+    background-color: #000;
+    border: 2px solid #fff;
+    margin-top: 30px;
+}
+.sign-up-btn{
+    width: 360px;
+    height: 56px;
+    font-family: 'Hacked';
+    text-transform: uppercase;
+    padding: 17px 0 0 0;
+    color: #060F17;
+    background-color: #fff;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    top: 5px;
+    right: 3px;
+    border-radius: 0;
+    transition: 0.3s;
+}
+.sign-up-btn:hover{
+    width: 360px;
+    height: 56px;
+    font-family: 'Hacked';
+    text-transform: uppercase;
+    padding: 17px 0 0 0;
+    color: #060F17;
+    background-color: #fff;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    top: -1px;
+    right: 0px;
+    border-radius: 0;
+    transition: 0.3s;
+}
+.plus{
+    position: absolute;
+    left: 852px;
+    top: 17px;
+}
+.ar-d{
+    position: absolute;
+    left: 852px;
+    bottom: 0px;
+}
+.avialable-squares{
+    display: flex;
+    column-gap: 40px;
+    margin-top: 90px;
 }
