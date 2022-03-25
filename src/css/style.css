@@ -770,6 +770,9 @@
 /* Верстка футера */
 .footer{
     background-color: #08100F;
+    padding-bottom: 40px;
+    position: relative;
+    overflow: hidden;
 }
 .footer-row{
     display: flex;
@@ -802,7 +805,11 @@
     color: #A0AEBB;
 }
 .footer-img-wrapper{
-    margin-top: 40px;
+    margin-top: 27px;
+}
+.footer-img-wrapper img{
+    position: absolute;
+    transform: translate(-50%, -50%);
 }
 .contacts{
     margin-top: 40px;
