@@ -583,3 +583,251 @@
     column-gap: 40px;
     margin-top: 90px;
 }
+/* --------------- */
+/* Секция с ценами */
+
+.prices{
+    background-color: #0D1316;
+    padding-bottom: 200px;
+}
+
+/* заголовок секции */
+.prices-title{
+    font-size: 64px;
+    line-height: 74px;
+    font-style: normal;
+    padding-top: 180px;
+}
+/* блок с перечислениями (1-5) */
+.prices-features{
+    display: flex;
+    margin-top: 77px;
+}
+.first-col-f{
+    display: flex;
+    flex-direction: column;
+}
+.price-f{
+    display: flex;
+    align-items: flex-start;
+    column-gap: 54px;
+    padding-top: 40px;
+}
+.f-num{
+    font-family: 'Hacked';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 110px;
+    color: #B9BABE;
+}
+.f-desc{
+    font-family: 'PT Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #A0AEBB;
+    max-width: 360px;
+    padding-top: 15px;
+}
+.second-col-f{
+    margin-left: 30px;
+}
+/* блок с колонками цен */
+.prices-block-row{
+    display: flex;
+    margin-top: 100px;
+    column-gap: 30px;
+    position: relative;
+}
+.price-block{
+    background-color: #B9BABE;
+    max-width: 263px;
+    max-height: 263px;
+    padding: 20px;
+}
+
+/* период рассрочки */
+.sub-period{
+    font-family: 'Hacked';
+    font-size: 24px;
+    color: #060F17;
+    line-height: 28px;
+}
+/* стоимость */
+.price{
+    font-family: 'PT Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 54px;
+    color: #060F17;
+    margin-top: 10px;
+}
+/* вторая колонка (на 3 месяца) */
+.one-month{
+    font-size: 48px;
+}
+/* Кнопка "Оплатить" (вместе с оберткой) */
+.price-btn-wrapper{
+    margin-top: 70px;
+    width: 223px;
+    height: 56px;
+    border: 3px solid #060F17;
+}
+.price-btn{
+    width: 223px;
+    height: 56px;
+    transition: 0.3s;
+    font-family: 'Hacked';
+    font-weight: 400;
+    font-size: 36px;
+    font-style: normal;
+    line-height: 41px;
+    color: #fff;
+    right: 5px;
+    top: 5px;
+    text-transform: uppercase;
+    border-radius: 0;
+    border-color: #060F17;
+    background-color: #060F17;
+}
+.price-btn:hover{
+    width: 223px;
+    height: 56px;
+    transition: 0.3s;
+    font-family: 'Hacked';
+    font-weight: 400;
+    font-size: 36px;
+    font-style: normal;
+    line-height: 41px;
+    color: #fff;
+    right: -3px;
+    top: -3px;
+    text-transform: uppercase;
+    border-radius: 0;
+    border-color: #060F17;
+    background-color: #060F17;
+}
+.surprise{
+    font-family: 'PT Mono';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 20px;
+    color: #060F17;
+    margin-top: 10px;
+}
+.half, .year-btn{
+    margin-top: 40px;
+}
+.subscription{
+    font-family: 'PT Mono';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 20px;
+    color: #fff;
+    text-align: center;
+    padding-top: 10px;
+}
+/* блок на полгода */
+.half-year-wrapper{
+    width: 263px;
+    height: 263px;
+    top: -40px;
+    right: -20px;
+    border: 2px solid #fff;
+}
+.half-year{
+    max-width: 263px;
+    max-height: 263px;
+    background-color: #ECECEC;
+    position: absolute;
+    top: 40px;
+    right: 20px;
+}
+
+/* блок на год */
+.year-wrapper{
+    width: 263px;
+    height: 263px;
+    top: -40px;
+    right: -20px;
+    border: 2px solid #fff;
+}
+.year{
+    max-width: 263px;
+    max-height: 263px;
+    background-color: #fff;
+    position: absolute;
+    top: 40px;
+    right: 20px;
+}
+
+/* -------------- */
+/* Верстка футера */
+.footer{
+    background-color: #08100F;
+}
+.footer-row{
+    display: flex;
+    justify-content: space-between;
+}
+.data{
+    margin-top: 40px;
+}
+.about-businessman{
+    max-width: 260px;
+    font-family: 'PT Mono';
+    line-height: 22px;
+    font-size: 16px;
+    color: #B9BABE;
+    font-style: normal;
+}
+.confident-link{
+    margin-top: 20px;
+}
+.training-offer{
+    margin-top: 5px;
+}
+.footer-link{
+    font-family: 'PT Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    text-decoration: underline;
+    color: #A0AEBB;
+}
+.footer-img-wrapper{
+    margin-top: 40px;
+}
+.contacts{
+    margin-top: 40px;
+}
+.contacts-title{
+    font-family: 'Hacked';
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #B9BABE;
+}
+.phone-row{
+    display: flex;
+    column-gap: 10px;
+    margin-top: 10px;
+}
+.phone, .mail{
+    font-family: 'PT Mono';
+    font-size: 18px;
+    line-height: 29px;
+    color: #B9BABE;
+}
+.mail-row{
+    display: flex;
+    column-gap: 10px;
+    margin-top: 5px;
+}
