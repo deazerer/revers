@@ -404,6 +404,10 @@
     color: #898F9F;
     padding-top: 40px;
 }
+.avialable-link:hover{
+    color: #000;
+    
+}
 .avialable-img-wrapper{
     border: none; 
 }
@@ -708,7 +712,7 @@
     text-transform: uppercase;
     border-radius: 0;
     border-color: #060F17;
-    background-color: #060F17;
+    background-color: #000;
 }
 .surprise{
     font-family: 'PT Mono';
@@ -804,6 +808,9 @@
     text-decoration: underline;
     color: #A0AEBB;
 }
+.footer-link:hover{
+    color: #fff;
+}
 .footer-img-wrapper{
     margin-top: 27px;
 }
@@ -832,6 +839,15 @@
     font-size: 18px;
     line-height: 29px;
     color: #B9BABE;
+    text-decoration: none;
+}
+.phone:hover{
+    cursor: pointer;
+    color: #fff;
+}
+.mail:hover{
+    cursor: pointer;
+    color: #fff;
 }
 .mail-row{
     display: flex;
