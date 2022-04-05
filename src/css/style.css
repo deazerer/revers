@@ -6,13 +6,17 @@
 	font-weight: normal;
 	font-style: normal;
 }
+
 body{
     font-family: 'PT Mono';
 }
 .main{
-    background-color: #0C1215;
+    background: url(../img/icons/main-bcg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     padding-top: 20px;
-    padding-bottom: 266px;
+    padding-bottom: 110px;
+    background-position: bottom;
 }
 .header{
     display: flex;
@@ -148,7 +152,6 @@ body{
     border: 2px solid #FFFFFF;
 }
 .intro-join-text{
-    display: inline-block;
     max-width: 292px;
     font-size: 18px;
     color: #A0AEBB;
@@ -162,12 +165,19 @@ body{
     font-weight: 700;
     font-size: 24px;
     color: #B9BABE;
-    margin-bottom: 200px;
     margin-top: 20px;
 }
 
 /* Блок с преимуществами */
 
+.features-section{
+    background: url(../img/features-section-bcg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    padding-top: 90px;
+    padding-bottom: 266px;
+}
 .features-box{
     display: flex;
     flex-direction: column;
@@ -196,7 +206,6 @@ body{
 }
 .feature-row .osint{
     position: absolute;
-    background: #151414;
     border: 2px solid #FFFFFF;
     max-width: 165px;
     height: 165px;
@@ -211,7 +220,6 @@ body{
     flex-direction: column;
     justify-content: space-between;
     margin-left: 128px;
-    
 }
 .feature-title{
     font-size: 48px;
@@ -312,7 +320,10 @@ body{
 /* Вторая секция */
 
 .avialables{
-    background-color: #EAEAEA;
+    background: url('../img/avialables-section-bcg.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
     padding-bottom: 204px;
 }
 .avialables-title{
@@ -586,7 +597,10 @@ body{
 /* Секция с ценами */
 
 .prices{
-    background-color: #0D1316;
+    background: url('../img/price-bcg.png');
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: cover;
     padding-bottom: 200px;
 }
 
