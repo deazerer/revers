@@ -6,7 +6,6 @@
 	font-weight: normal;
 	font-style: normal;
 }
-
 body{
     font-family: 'PT Mono';
 }
@@ -16,7 +15,7 @@ body{
     background-size: cover;
     padding-top: 20px;
     padding-bottom: 110px;
-    background-position: bottom;
+    background-position: center;
 }
 .header{
     display: flex;
@@ -63,7 +62,7 @@ body{
     width: 165px;
     height: 50px;
     color: #fff;
-    padding: 15px 11px 15px 15px; 
+    padding: 12px 11px 15px 15px; 
     background-color: #000;
     top: 3px;
     right: 3px;
@@ -76,7 +75,7 @@ body{
     text-decoration: none;
     color: #fff;
     border: 2px solid #fff;
-    padding: 15px 11px 15px 15px; 
+    padding: 12px 11px 15px 15px; 
     background-color: #000;
     position: absolute;
     top: -2px;
@@ -92,13 +91,31 @@ body{
     text-shadow: 2px 2px 20px rgba(255, 255, 255, 0.7);
     color: #fff;
 }
-.intro-title{
+.intro-title-large{
+    position: relative;
     margin-top: 300px;
-    width: 555px;
-    font-size: 64px;
-}
-.intro-title .large{
     font-size: 153px;
+}
+.intro-title-small{
+    position: relative;
+    font-size: 64px;
+    margin-top: -50px;
+}
+.title-wrapper{
+    position: absolute;
+    font-family: 'Hacked';
+    color: #fff;
+    mix-blend-mode: overlay;
+    font-size: 96px;
+    bottom: -6px;
+}
+.intro-title-wrapper-large{
+    font-size: 200px;
+    bottom: 5px;
+}
+.intro-title-wrapper-small{
+    font-size: 84px;
+    bottom: -3px;
 }
 .intro-subtitle{
     font-size: 36px;
@@ -157,6 +174,7 @@ body{
     color: #A0AEBB;
 }
 .subfeatures-title{
+    position: relative;
     margin-top: 300px;
     font-size: 64px;
 }
@@ -174,7 +192,7 @@ body{
     background: url(../img/features-section-bcg.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: bottom;
+    background-position: center;
     padding-top: 90px;
     padding-bottom: 266px;
 }
@@ -322,11 +340,12 @@ body{
 .avialables{
     background: url('../img/avialables-section-bcg.png');
     background-repeat: no-repeat;
-    background-position: top;
+    background-position: center;
     background-size: cover;
     padding-bottom: 204px;
 }
 .avialables-title{
+    position: relative;
     font-size: 64px;
     color: #060F17;
     padding-top: 114px;
@@ -599,13 +618,14 @@ body{
 .prices{
     background: url('../img/price-bcg.png');
     background-repeat: no-repeat;
-    background-position: center right;
+    background-position: center;
     background-size: cover;
     padding-bottom: 200px;
 }
 
 /* заголовок секции */
 .prices-title{
+    position: relative;
     font-size: 64px;
     padding-top: 180px;
 }
@@ -621,13 +641,38 @@ body{
 .price-f{
     display: flex;
     align-items: flex-start;
-    column-gap: 54px;
     padding-top: 40px;
 }
-.f-num{
+.f-num-wrapper{
+    position: relative;
+    display: flex;
     font-family: 'Hacked';
     font-size: 96px;
+    color: #C4C4C4;
+    margin-right: 54px;
+}
+.one-wrapper{
+    margin-right: 65px;
+}
+.two-wrapper{
+    margin-right: 57px;
+}
+.three-wrapper{
+    margin-right: 52px;
+}
+.f-num{
+    position: absolute;
+    font-size: 144px;
+    font-family: 'Hacked';
     color: #B9BABE;
+    height: 166px;
+    display: flex;
+    align-items: flex-end;
+    mix-blend-mode: overlay;
+    left: 6px;
+}
+.one-f-num{
+    left: 30px;
 }
 .f-desc{
     font-size: 18px;
