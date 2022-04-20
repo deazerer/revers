@@ -82,6 +82,40 @@ body{
     right: -2px;
     transition: 0.3s;
 }
+.header-burger{
+    display: none;
+    position: relative;
+    width: 60px;
+    height: 60px;
+}
+.header-burger .burger{
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 4px;
+    background-color: #fff;
+    left: 0;
+    top: 9px;
+    transform: rotate(180deg);
+}
+.burger::before{
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 4px;
+    background-color: #fff;
+    top: -15px;
+    left: 0;
+}
+.burger::after{
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 4px;
+    background-color: #fff;
+    bottom: -15px;
+    left: 0;
+}
 .intro-content{
     display: flex;
     flex-direction: column;
@@ -696,7 +730,6 @@ body{
     height: 263px;
     padding: 20px;
 }
-
 /* период рассрочки */
 .sub-period{
     font-family: 'Hacked';
@@ -783,7 +816,6 @@ body{
     top: 40px;
     right: 20px;
 }
-
 /* блок на год */
 .year-wrapper{
     width: 263px;
@@ -800,7 +832,6 @@ body{
     top: 40px;
     right: 20px;
 }
-
 /* -------------- */
 /* Верстка футера */
 .footer{
@@ -866,3 +897,64 @@ body{
     color: #fff;
 }
 
+@media(max-width: 360px){
+    .header{
+        justify-content: space-around;
+    }
+    .header-btn-wrapper{
+        display: none;
+    }
+    .header-btn{
+        display: none;
+    }
+    .header-burger{
+        display: block;
+        top: 15px;
+        /* margin-left: 50px; */
+    }
+    .main{
+        background: url(../img/main-bcg-mobile.png);
+        background-size: contain;
+        background-position: top;
+        background-repeat: no-repeat;
+    }
+    .title{
+        text-shadow: 1px 1px 10px rgba(255, 255, 255, 0.7);
+    }
+    .intro-title-large{
+        font-size: 81px;
+    }
+    .intro-title-small{
+        font-size: 34px;
+        margin-top: -35px;
+    }
+    .title-wrapper{
+        font-size: 66px;
+    }
+    .intro-title-wrapper-large{
+        font-size: 121px;
+    }
+    .intro-title-wrapper-small{
+        font-size: 51px;
+    }
+    .intro-subtitle{
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    .intro-join{
+        flex-wrap: wrap;
+    }
+    .intro-join img{
+        width: 60px;
+        height: 60px;
+    }
+    .intro-join-text{
+        font-size: 14px;
+        max-width: 168px;
+    }
+    .join-wrapper{
+        justify-content: flex-start;
+        margin-top: 15px;
+        margin-left: 0;
+    }
+}
